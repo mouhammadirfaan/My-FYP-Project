@@ -2,7 +2,7 @@ from django.urls import path, include
 
 from .views import *
 
-app_name = "jobs"
+app_name = "scholarshipApp"
 
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),

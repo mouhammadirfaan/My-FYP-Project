@@ -6,7 +6,7 @@ from django.views.generic import UpdateView
 
 from accounts.forms import EmployeeProfileUpdateForm
 from accounts.models import User
-from jobsapp.decorators import user_is_employee
+from scholarshipApp.decorators import user_is_employee
 
 
 class EditProfileView(UpdateView):
